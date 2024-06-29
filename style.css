@@ -97,6 +97,8 @@ hr {
 @media(max-width:600px) {
     body {
         background-image: url('assets/images/background-pattern-mobile.svg');
+        height: auto;
+        margin: 150px 0;
     }
 
     main {
@@ -122,5 +124,13 @@ hr {
     .faq-response span {
         font-size: 15px;
         padding-right: 10px;
+    }
+    .attribution {
+        position: absolute;
+        top: -150px;
+        bottom: auto;
+    }
+    .attribution a{
+        color: #FFF;
     }
 }
