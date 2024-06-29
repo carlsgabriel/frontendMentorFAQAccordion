@@ -59,6 +59,7 @@ main {
     color: hsl(292, 42%, 14%);
     text-decoration: none;
     cursor: pointer;
+    padding-right: 30px;
 }
 
 .faq-ask span:hover {
